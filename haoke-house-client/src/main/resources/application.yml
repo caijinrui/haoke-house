@@ -1,0 +1,11 @@
+server:
+  port: 8102
+
+spring:
+  application:
+    name: haoke-house-client
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8101/eureka/
